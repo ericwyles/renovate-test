@@ -3,9 +3,12 @@
     "forkProcessing": "enabled",
     "$schema": "https://docs.renovatebot.com/renovate-schema.json",
     "extends": [
-        ":dependencyDashboard",
+        "github>ericwyles/uds-common//config/renovate.json5",
+        ":semanticPrefixFixDepsChoreOthers",
         "config:base",
-        "helpers:pinGitHubActionDigests"
+        "group:all",
+        "replacements:all",
+        "workarounds:all"
     ],
     "ignorePresets": [":ignoreModulesAndTests"],
     "reviewersFromCodeOwners": false,
