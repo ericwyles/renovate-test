@@ -41,7 +41,7 @@
                 // Test: https://regex101.com/r/euvVHz/1
                 "(?<currentValue>[v0-9][^\\n\\\"\\s]*)-uds\\.\\d+"
             ],
-            //"autoReplaceStringTemplate": "{{{newValue}}}-uds.0",
+            "autoReplaceStringTemplate": "{{{newValue}}}-uds.0",
             "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver-coerced{{/if}}",
             "extractVersionTemplate": "{{#if extractVersion}}{{{extractVersion}}}{{else}}^(?<version>.*)${{/if}}"
         },
