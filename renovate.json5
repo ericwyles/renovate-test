@@ -5,7 +5,7 @@
     "extends": [
         ":dependencyDashboard",
         "config:base",
-        "helpers:pinGitHubActionDigests",
+        "helpers:pinGitHubActionDigests"
     ],
     "ignorePresets": [":ignoreModulesAndTests"],
     "reviewersFromCodeOwners": false,
