@@ -5,7 +5,7 @@ image:
 
 flavors:
   - name: upstream
-    # renovate-uds: datasource=docker depName=sonarqube versioning=docker
+    # renovate-uds: datasource=docker depName=sonarqube versioning=docker extractVersion=^(?<version>\d+\.\d+\.\d+\.\d+)(-community)?$
     version: 24.12.0.100206-uds.0
 
 # junk drawer below
